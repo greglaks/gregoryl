@@ -21,7 +21,7 @@
 	<feature name="http://api.phonegap.com/1.0/file"/>
 
 	<!-- These rules lets demo.vaadin.com take over the web view created by cordova/phonegap -->
-	<preference name="stay-in-webview" value="true" />
+	<preference name="stay-in-webview" value="false" />
 	<access origin="" />
 
 </widget>
