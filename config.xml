@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.vaadin.phonegap.getting.started"
+	version 	= "1.0.0">
+
+	<name>D'clipboard</name>
+
+	<description>
+		Task and Team management
+	</description>
+
+	<author href="http://mstahv.github.com"
+		email="greg.laksono@gmail.com">
+		Gregory Laksono
+	</author>
+
+	<icon src="icon.png" gap:role="default" />
+	<preference name="permissions" value="none"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/file"/>
+
+	<!-- These rules lets demo.vaadin.com take over the web view created by cordova/phonegap -->
+	<preference name="stay-in-webview" value="true" />
+	<access origin="" />
+
+</widget>
