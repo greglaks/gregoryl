@@ -10,7 +10,7 @@
 		Task and Team management
 	</description>
 
-	<author href="http://mstahv.github.com"
+	<author href="https://github.com/greglaks"
 		email="greg.laksono@gmail.com">
 		Gregory Laksono
 	</author>
@@ -26,6 +26,6 @@
     <preference name="target-device"  value="universal" /> 
 	<preference name="exit-on-suspend"  value="false" />  
 	<preference name="webviewbounce"    value="true" /> 
-	<access origin="" />
+	<access origin="*" />
 
 </widget>
