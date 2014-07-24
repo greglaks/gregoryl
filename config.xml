@@ -26,6 +26,6 @@
     <preference name="target-device"  value="universal" /> 
 	<preference name="exit-on-suspend"  value="false" />  
 	<preference name="webviewbounce"    value="true" /> 
-	<access origin="*" />
+	<access origin="http://tmmgreg-env.elasticbeanstalk.com" />
 
 </widget>
