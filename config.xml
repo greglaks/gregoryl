@@ -21,11 +21,9 @@
 	<feature name="http://api.phonegap.com/1.0/file"/>
 
 	<!-- These rules lets demo.vaadin.com take over the web view created by cordova/phonegap -->
-	<preference name="stay-in-webview" value="false" />
-	<preference name="orientation"    value="default" />
-    <preference name="target-device"  value="universal" /> 
-	<preference name="exit-on-suspend"  value="false" />  
-	<preference name="webviewbounce"    value="true" /> 
+	<preference name="stay-in-webview" value="true" />
+	<preference name="orientation"    value="portrait" />
+    <preference name="target-device"  value="handset" /> 
 	<access origin="http://tmmgreg-env.elasticbeanstalk.com" />
 
 </widget>
