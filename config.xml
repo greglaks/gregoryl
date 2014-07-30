@@ -24,6 +24,6 @@
 	<preference name="stay-in-webview" value="true" />
 	<preference name="orientation"    value="portrait" />
     <preference name="target-device"  value="handset" /> 
-	<access origin="http://tmmgreg-env.elasticbeanstalk.com" />
+
 
 </widget>
